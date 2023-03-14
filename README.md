@@ -28,3 +28,4 @@ See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-webpack/quas
 # Study_Vue
 # Study_Vue2
 # Study_Vue2
+# Study_Vue2
