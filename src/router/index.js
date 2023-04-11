@@ -11,7 +11,15 @@ import routes from './routes'
  * with the Router instance.
  */
 
+import { defineComponent } from 'vue'
+
 export default route(function (/* { store, ssrContext } */) {
+
+  defineComponent({
+    name: 'App',
+    title : "Vue를 재미있게 공부해봅시다!"
+  })
+
   const createHistory = process.env.SERVER
     ? createMemoryHistory
     : (process.env.VUE_ROUTER_MODE === 'history' ? createWebHistory : createWebHashHistory)
